@@ -31,20 +31,16 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
+          <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jTabbedPane1" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jTabbedPane1" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
+          <Component id="jTabbedPane1" alignment="1" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -75,30 +71,23 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
-                  </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel21" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel6" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel22" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="Ds_Pais" min="-2" pref="128" max="-2" attributes="0"/>
                           <Component id="jScrollPane4" min="-2" pref="128" max="-2" attributes="0"/>
-                          <Component id="jScrollPane3" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="375" max="-2" attributes="0"/>
                       <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="461" max="32767" attributes="0"/>
+                      <EmptySpace pref="445" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="384" max="-2" attributes="0"/>
@@ -122,16 +111,9 @@
                           <Component id="jLabel21" min="-2" pref="31" max="-2" attributes="0"/>
                           <Component id="Ds_Pais" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="jLabel22" min="-2" pref="31" max="-2" attributes="0"/>
-                          <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace pref="73" max="32767" attributes="0"/>
+                      <EmptySpace pref="122" max="32767" attributes="0"/>
                       <Component id="Ds_GenerarEquipo" min="-2" pref="53" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel23" min="-2" pref="31" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -153,20 +135,6 @@
                 <Property name="text" type="java.lang.String" value="Equipo"/>
               </Properties>
             </Component>
-            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
-              <AuxValues>
-                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-              </AuxValues>
-
-              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-              <SubComponents>
-                <Component class="javax.swing.JTextPane" name="Ds_RatingEquipo">
-                  <Properties>
-                    <Property name="editable" type="boolean" value="false"/>
-                  </Properties>
-                </Component>
-              </SubComponents>
-            </Container>
             <Component class="javax.swing.JLabel" name="jLabel21">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -186,14 +154,6 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JLabel" name="jLabel22">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="sansserif" size="14" style="1"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Rating:"/>
-              </Properties>
-            </Component>
             <Container class="javax.swing.JScrollPane" name="Ds_Pais">
               <AuxValues>
                 <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
@@ -205,18 +165,13 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JLabel" name="jLabel23">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="sansserif" size="14" style="1"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Plantila del equipo"/>
-              </Properties>
-            </Component>
             <Component class="javax.swing.JButton" name="Ds_GenerarEquipo">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Generar"/>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Ds_GenerarEquipoMouseClicked"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -253,7 +208,7 @@
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="399" max="-2" attributes="0"/>
                               <Component id="Ds_generar" min="-2" pref="85" max="-2" attributes="0"/>
-                              <EmptySpace pref="196" max="32767" attributes="0"/>
+                              <EmptySpace pref="180" max="32767" attributes="0"/>
                               <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
@@ -399,7 +354,7 @@
                                   <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                                   <Component id="Ds_Ritmo" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace pref="15" max="32767" attributes="0"/>
+                              <EmptySpace pref="21" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel11" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                                   <Component id="Ds_Entrada" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -435,7 +390,7 @@
                                           <Component id="Ds_rating" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace pref="57" max="32767" attributes="0"/>
+                                      <EmptySpace pref="63" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -841,7 +796,7 @@
                               <Component id="Ds_GenerarEstadio" min="-2" pref="121" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="362" max="32767" attributes="0"/>
+                      <EmptySpace pref="346" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -872,7 +827,7 @@
                       </Group>
                       <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                       <Component id="Ds_GenerarEstadio" min="-2" pref="52" max="-2" attributes="0"/>
-                      <EmptySpace pref="49" max="32767" attributes="0"/>
+                      <EmptySpace pref="61" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -972,117 +927,6 @@
             </Component>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="jPanel4">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="99" red="0" type="rgb"/>
-            </Property>
-          </Properties>
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Listar Plantilla">
-                <Property name="tabTitle" type="java.lang.String" value="Listar Plantilla"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="294" max="-2" attributes="0"/>
-                              <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="217" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="Ds_ListarPlantilla" min="-2" pref="163" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="jScrollPane9" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
-                      <EmptySpace pref="283" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="jLabel29" min="-2" pref="65" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Ds_ListarPlantilla" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel30" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
-                      <Component id="jScrollPane9" min="-2" pref="91" max="-2" attributes="0"/>
-                      <EmptySpace pref="257" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Container class="javax.swing.JScrollPane" name="jScrollPane9">
-              <AuxValues>
-                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-              </AuxValues>
-
-              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-              <SubComponents>
-                <Component class="javax.swing.JTable" name="jTable2">
-                  <Properties>
-                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                      <Table columnCount="4" rowCount="0">
-                        <Column editable="true" title="Nombre" type="java.lang.Object"/>
-                        <Column editable="true" title="Edad" type="java.lang.Object"/>
-                        <Column editable="true" title="Nacionalidad" type="java.lang.Object"/>
-                        <Column editable="true" title="Rating" type="java.lang.Object"/>
-                      </Table>
-                    </Property>
-                  </Properties>
-                </Component>
-              </SubComponents>
-            </Container>
-            <Component class="javax.swing.JComboBox" name="Ds_ListarPlantilla">
-              <Properties>
-                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                  <StringArray count="4">
-                    <StringItem index="0" value="Item 1"/>
-                    <StringItem index="1" value="Item 2"/>
-                    <StringItem index="2" value="Item 3"/>
-                    <StringItem index="3" value="Item 4"/>
-                  </StringArray>
-                </Property>
-              </Properties>
-              <AuxValues>
-                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-              </AuxValues>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel29">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="sansserif" size="36" style="1"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Plantilla del Equipo"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel30">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="sansserif" size="14" style="1"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Eliga el equipo:"/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
         <Container class="javax.swing.JPanel" name="jPanel5">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -1106,7 +950,7 @@
                               <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
                               <Component id="jLabel39" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jComboBox2" min="-2" pref="135" max="-2" attributes="0"/>
+                              <Component id="Ds_elegirJugador" min="-2" pref="135" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="293" max="-2" attributes="0"/>
@@ -1117,7 +961,7 @@
                               <Component id="jScrollPane10" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="256" max="32767" attributes="0"/>
+                      <EmptySpace pref="240" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1127,18 +971,18 @@
                       <Component id="jLabel40" min="-2" pref="65" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Ds_elegirJugador" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel39" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
                       <Component id="jScrollPane10" min="-2" pref="91" max="-2" attributes="0"/>
-                      <EmptySpace pref="304" max="32767" attributes="0"/>
+                      <EmptySpace pref="316" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JComboBox" name="jComboBox2">
+            <Component class="javax.swing.JComboBox" name="Ds_elegirJugador">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="4">
@@ -1176,7 +1020,7 @@
 
               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
               <SubComponents>
-                <Component class="javax.swing.JTable" name="jTable3">
+                <Component class="javax.swing.JTable" name="Ds_ListarJugadores">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                       <Table columnCount="4" rowCount="0">
@@ -1215,7 +1059,7 @@
                               <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
                               <Component id="jLabel42" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jComboBox3" min="-2" pref="135" max="-2" attributes="0"/>
+                              <Component id="Ds_ElegirEstadio" min="-2" pref="135" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="306" max="-2" attributes="0"/>
@@ -1226,7 +1070,7 @@
                               <Component id="jScrollPane11" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="287" max="32767" attributes="0"/>
+                      <EmptySpace pref="271" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1238,11 +1082,11 @@
                       <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="jLabel42" min="-2" pref="31" max="-2" attributes="0"/>
-                          <Component id="jComboBox3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Ds_ElegirEstadio" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                       <Component id="jScrollPane11" min="-2" pref="91" max="-2" attributes="0"/>
-                      <EmptySpace pref="265" max="32767" attributes="0"/>
+                      <EmptySpace pref="277" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1264,7 +1108,7 @@
                 <Property name="text" type="java.lang.String" value="Eliga el estadio:"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JComboBox" name="jComboBox3">
+            <Component class="javax.swing.JComboBox" name="Ds_ElegirEstadio">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="4">
@@ -1286,7 +1130,7 @@
 
               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
               <SubComponents>
-                <Component class="javax.swing.JTable" name="jTable4">
+                <Component class="javax.swing.JTable" name="Ds_ListarEstadio">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                       <Table columnCount="4" rowCount="0">
@@ -1347,7 +1191,7 @@
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace pref="312" max="32767" attributes="0"/>
+                      <EmptySpace pref="296" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1371,7 +1215,7 @@
                           <Component id="Ds_ModEquipo" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel32" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="299" max="32767" attributes="0"/>
+                      <EmptySpace pref="311" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1501,7 +1345,7 @@
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace pref="380" max="32767" attributes="0"/>
+                      <EmptySpace pref="364" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1527,7 +1371,7 @@
                           <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
                           <Component id="Ds_EliminarEstadio" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="312" max="32767" attributes="0"/>
+                      <EmptySpace pref="324" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1629,15 +1473,169 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="956" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="940" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="576" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="588" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="99" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Listar Plantilla">
+                <Property name="tabTitle" type="java.lang.String" value="Listar Plantilla"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="217" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jScrollPane9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Ds_ElegirEquipo" min="-2" pref="163" max="-2" attributes="0"/>
+                              <EmptySpace pref="137" max="32767" attributes="0"/>
+                              <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jScrollPane5" min="-2" pref="128" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="294" max="-2" attributes="0"/>
+                              <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="403" max="-2" attributes="0"/>
+                              <Component id="Ds_GenerarRating" min="-2" pref="73" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel29" min="-2" pref="65" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Ds_ElegirEquipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel30" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="jScrollPane5" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel43" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                      <Component id="jScrollPane9" min="-2" pref="92" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                      <Component id="Ds_GenerarRating" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="168" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="Ds_ListarPlantillatable">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="0">
+                        <Column editable="true" title="Nombre" type="java.lang.Object"/>
+                        <Column editable="true" title="Edad" type="java.lang.Object"/>
+                        <Column editable="true" title="Nacionalidad" type="java.lang.Object"/>
+                        <Column editable="true" title="Rating" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JComboBox" name="Ds_ElegirEquipo">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel29">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="sansserif" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Plantilla del Equipo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel30">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="sansserif" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Eliga el equipo:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextPane" name="Ds_RatingEquipo1">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel43">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="sansserif" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Rating:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="Ds_GenerarRating">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Generar"/>
+              </Properties>
+            </Component>
+          </SubComponents>
         </Container>
       </SubComponents>
     </Container>
