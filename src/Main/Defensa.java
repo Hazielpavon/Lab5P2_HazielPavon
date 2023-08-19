@@ -8,7 +8,7 @@ public class Defensa extends Jugador {
     private int ritmoesp; 
     private int entradaesp; 
 
-    public Defensa(int fisicoesp, int ritmoesp, int entradaesp) {
+    public Defensa(int fisicoesp, int ritmoesp, int entradaesp, int vision1, int passing1, int regate1, int edad, int rating, String nombre1, String pie1) {
         this.fisicoesp = fisicoesp;
         this.ritmoesp = ritmoesp;
         this.entradaesp = entradaesp;

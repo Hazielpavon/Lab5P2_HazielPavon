@@ -6,7 +6,7 @@ public class Delantero extends Jugador {
     private int disparoesp;
     private int regateespd;
 
-    public Delantero(int ritmoespd, int disparoesp, int regateespd) {
+    public Delantero(int ritmoespd, int disparoesp, int regateespd, int fisico, int entrada, int vision1, int passing1, int edad, int rating, String nombre1, String pie1) {
         this.ritmoespd = ritmoespd;
         this.disparoesp = disparoesp;
         this.regateespd = regateespd;

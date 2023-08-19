@@ -360,6 +360,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Generar"/>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Ds_GenerarEstadioMouseClicked"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

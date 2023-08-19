@@ -8,7 +8,7 @@ public class Mediocampista extends Jugador{
     private int passingespmedio; 
     private int regateesp;
 
-    public Mediocampista(int visionesp, int passingespmedio, int regateesp) {
+    public Mediocampista(int visionesp, int passingespmedio, int regateesp, int fisico, int ritmo, int entrada, int edad, int rating, String nombre1, String pie1) {
         this.visionesp = visionesp;
         this.passingespmedio = passingespmedio;
         this.regateesp = regateesp;

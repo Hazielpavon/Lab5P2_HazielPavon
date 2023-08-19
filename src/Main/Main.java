@@ -244,6 +244,11 @@ public class Main extends javax.swing.JFrame {
         jLabel28.setText("Equipo al que pertenece");
 
         Ds_GenerarEstadio.setText("Generar");
+        Ds_GenerarEstadio.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Ds_GenerarEstadioMouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -1055,6 +1060,9 @@ public class Main extends javax.swing.JFrame {
         int fisico;
         int ritmo;
         int entrada;
+        int vision;
+        int regate;
+        int disparo;
 
         nombre = Ds_nombreJugador.getText();
         edad = Integer.parseInt(Ds_EdadJugador.getText());
@@ -1084,9 +1092,9 @@ public class Main extends javax.swing.JFrame {
             Ds_Ritmo.setText(Integer.toString(ritmo));
             Ds_Entrada.setText(Integer.toString(entrada));
 
-            int vision = randof();
-            int regate = randof();
-            int disparo = randof();
+            vision = randof();
+            regate = randof();
+            disparo = randof();
 
             Ds_Vision.setText(Integer.toString(vision));
             Ds_Regate.setText(Integer.toString(regate));
@@ -1097,12 +1105,98 @@ public class Main extends javax.swing.JFrame {
 
             Jugador y = new Portero(agarrePortero, lanzamientoPortero, passingPortero, edadPortero, rating, nombre, agarre, lanzamiento, fisico, ritmo, entrada);
             jugadores.add(y);
-        } else if (Ds_Delantero.isSelected()){
-            
+        } else if (Ds_Defensa.isSelected()) {
+            fisico = rando();
+            ritmo = rando();
+            entrada = rando();
+
+            Ds_fisico.setText(Integer.toString(fisico));
+            Ds_Ritmo.setText(Integer.toString(ritmo));
+            Ds_Entrada.setText(Integer.toString(entrada));
+
+            vision = randof();
+            passing = randof();
+            regate = randof();
+
+            Ds_Vision.setText(Integer.toString(vision));
+            Ds_Passing.setText(Integer.toString(passing));
+            Ds_Regate.setText(Integer.toString(regate));
+
+            rating = (fisico + ritmo + entrada + vision + passing + regate) / 6;
+            Ds_rating.setText(Integer.toString(rating));
+
+            Jugador y = new Defensa(fisico, ritmo, entrada, vision, passing, regate, edad, rating, nombre, pie);
+            jugadores.add(y);
+        } else if (Ds_Medio.isSelected()) {
+            vision = rando();
+            passing = rando();
+            regate = rando();
+
+            Ds_Vision.setText(Integer.toString(vision));
+            Ds_Passing.setText(Integer.toString(passing));
+            Ds_Regate.setText(Integer.toString(regate));
+
+            fisico = randof();
+            ritmo = randof();
+            entrada = randof();
+
+            Ds_fisico.setText(Integer.toString(fisico));
+            Ds_Ritmo.setText(Integer.toString(ritmo));
+            Ds_Entrada.setText(Integer.toString(entrada));
+
+            disparo = randof();
+
+            Ds_disparo1.setText(Integer.toString(disparo));
+
+            rating = (disparo + regate + vision + entrada + ritmo + fisico + passing) / 7;
+            Ds_rating.setText(Integer.toString(rating));
+
+            Jugador y = new Mediocampista(vision, passing, regate, fisico, ritmo, entrada, edad, rating, nombre, pie);
+            jugadores.add(y);
+        } else if (Ds_Delantero.isSelected()) {
+            ritmo = rando();
+            disparo = rando();
+            regate = rando();
+
+            Ds_Ritmo.setText(Integer.toString(ritmo));
+            Ds_disparo1.setText(Integer.toString(disparo));
+            Ds_Regate.setText(Integer.toString(regate));
+
+            fisico = randof();
+            vision = randof();
+            passing = randof();
+            entrada = randof();
+
+            Ds_fisico.setText(Integer.toString(fisico));
+            Ds_Vision.setText(Integer.toString(vision));
+            Ds_Passing.setText(Integer.toString(passing));
+            Ds_Entrada.setText(Integer.toString(entrada));
+
+            rating = (disparo + regate + ritmo + entrada + fisico + vision + passing) / 7;
+            Ds_rating.setText(Integer.toString(rating));
+
+            Jugador y = new Delantero(ritmo, disparo, regate, fisico, entrada, vision, passing, edad, rating, nombre, pie);
+            jugadores.add(y);
         }
 
 
     }//GEN-LAST:event_Ds_generarActionPerformed
+
+    private void Ds_GenerarEstadioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Ds_GenerarEstadioMouseClicked
+
+        String nombre;
+        String ciudad;
+        int capacidad;
+
+        nombre = Ds_NombreEstadio.getText();
+        ciudad = Ds_ciudad.getText();
+        capacidad = Integer.parseInt(Ds_Capacidad.getText());
+
+        Estadios x = new Estadios(nombre, ciudad, capacidad, "");
+
+        Estadio.add(x);
+
+    }//GEN-LAST:event_Ds_GenerarEstadioMouseClicked
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
