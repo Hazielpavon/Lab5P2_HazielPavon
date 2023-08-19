@@ -202,7 +202,7 @@ public class Main extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Ds_Pais, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 122, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 110, Short.MAX_VALUE)
                 .addComponent(Ds_GenerarEquipo, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(165, 165, 165))
         );
@@ -301,7 +301,7 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(jLabel28, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(46, 46, 46)
                 .addComponent(Ds_GenerarEstadio, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(61, Short.MAX_VALUE))
+                .addContainerGap(49, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Nuevo Estadio", jPanel3);
@@ -355,7 +355,7 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(jLabel39, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(72, 72, 72)
                 .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(316, Short.MAX_VALUE))
+                .addContainerGap(304, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Listar Jugadores", jPanel5);
@@ -418,7 +418,7 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(Ds_ElegirEstadio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(69, 69, 69)
                 .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(277, Short.MAX_VALUE))
+                .addContainerGap(265, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Listar Estadios", jPanel6);
@@ -486,7 +486,7 @@ public class Main extends javax.swing.JFrame {
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Ds_ModEquipo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(311, Short.MAX_VALUE))
+                .addContainerGap(299, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Modificar", jPanel7);
@@ -555,7 +555,7 @@ public class Main extends javax.swing.JFrame {
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel38)
                     .addComponent(Ds_EliminarEstadio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(324, Short.MAX_VALUE))
+                .addContainerGap(312, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Eliminar", jPanel8);
@@ -570,7 +570,7 @@ public class Main extends javax.swing.JFrame {
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 588, Short.MAX_VALUE)
+            .addGap(0, 576, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Simulacion", jPanel9);
@@ -647,7 +647,7 @@ public class Main extends javax.swing.JFrame {
                 .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(67, 67, 67)
                 .addComponent(Ds_GenerarRating)
-                .addContainerGap(168, Short.MAX_VALUE))
+                .addContainerGap(156, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Listar Plantilla", jPanel4);
@@ -922,7 +922,7 @@ public class Main extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel14)
                             .addComponent(Ds_Ritmo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Ds_Entrada, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -951,7 +951,7 @@ public class Main extends javax.swing.JFrame {
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(Ds_rating, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jLabel20))
-                                .addContainerGap(63, Short.MAX_VALUE))))
+                                .addContainerGap(57, Short.MAX_VALUE))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(17, 17, 17)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -981,13 +981,16 @@ public class Main extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(14, 14, 14)
                 .addComponent(jTabbedPane1)
-                .addGap(22, 22, 22))
+                .addGap(14, 14, 14))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
@@ -1037,99 +1040,21 @@ public class Main extends javax.swing.JFrame {
 
     private void Ds_generarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Ds_generarMouseClicked
 
-//        String nombre;
-//        int edad;
-//        String nacionalidad;
-//        String pie;
-//        String pos;
-//        int rating;
-//        String equipo;
-//        int agarre = 0;
-//        int lanzamiento;
-//        int fisico;
-//        int ritmo;
-//        int entrada;
-//        int vision;
-//        int passing;
-//        int regate;
-//        int disparo;
-//        int temporal = 0;
-//
-//        nombre = Ds_nombreJugador.getText();
-//        edad = Integer.parseInt(Ds_EdadJugador.getText());
-//        nacionalidad = Ds_NacionalidadJugador.getText();
-//
-//        if (Ds_Derecho1.isSelected()) {
-//            pie = "Derecho";
-//        } else {
-//            pie = "Izquierdo";
-//        }
-//
-//        if (Ds_Portero.isSelected()) {
-//            pos = "Portero";
-//
-//            while (temporal < 70) {
-//
-//                temporal = 12 * 1 + ran.nextInt(12);
-//                if (temporal > 100) {
-//                    temporal = 99;
-//                }
-//            }
-//            agarre = temporal;
-//            System.out.println(Integer.toString(agarre));
-//            Ds_Agarre.setText(Integer.toString(agarre));
-//            
-//            temporal = 0;
-//
-//            while (temporal < 70) {
-//
-//                temporal = 12 * 1 + ran.nextInt(12);
-//                if (temporal > 100) {
-//                    temporal = 99;
-//                }
-//            }
-//            lanzamiento = temporal; 
-//            
-//             temporal = 0;
-//
-//            while (temporal < 70) {
-//
-//                temporal = 12 * 1 + ran.nextInt(12);
-//                if (temporal > 100) {
-//                    temporal = 99;
-//                }
-//            }
-//            
-//            passing = temporal; 
-//        }
-//
-////        DefaultComboBoxModel dc
-////                = (DefaultComboBoxModel) Ds_Selecciondeequipos.getModel();
-////
-////        dc.addElement(x);
-////
-////        cb_amigos.setModel(dc);
-
     }//GEN-LAST:event_Ds_generarMouseClicked
 
     private void Ds_generarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Ds_generarActionPerformed
+
         String nombre;
         int edad;
         String nacionalidad;
         String pie;
-        String pos;
         int rating;
-        String equipo;
         int agarre = 0;
-        int lanzamiento;
+        int lanzamiento = 0;
+        int passing;
         int fisico;
         int ritmo;
         int entrada;
-        int vision;
-        int passing;
-        int regate;
-        int disparo;
-        int temporal = 0;
 
         nombre = Ds_nombreJugador.getText();
         edad = Integer.parseInt(Ds_EdadJugador.getText());
@@ -1142,55 +1067,43 @@ public class Main extends javax.swing.JFrame {
         }
 
         if (Ds_Portero.isSelected()) {
-            pos = "Portero";
+            int edadPortero = Integer.parseInt(Ds_EdadJugador.getText());
+            int agarrePortero = rando();
+            int lanzamientoPortero = rando();
+            int passingPortero = rando();
 
-            while (temporal < 70) {
+            Ds_Agarre.setText(Integer.toString(agarrePortero));
+            Ds_Lanzamiento.setText(Integer.toString(lanzamientoPortero));
+            Ds_Passing.setText(Integer.toString(passingPortero));
 
-                temporal = 12 * 1 + ran.nextInt(12);
-                if (temporal > 70 && temporal >= 99) {
-                    break;
-                }
-            }
+            fisico = randof();
+            ritmo = randof();
+            entrada = randof();
 
-            agarre = temporal;
-            System.out.println(Integer.toString(agarre));
-            Ds_Agarre.setText(Integer.toString(agarre));
+            Ds_fisico.setText(Integer.toString(fisico));
+            Ds_Ritmo.setText(Integer.toString(ritmo));
+            Ds_Entrada.setText(Integer.toString(entrada));
 
-//            temporal = 0;
-//
-//            while (temporal < 70) {
-//
-//                temporal = 12 * 1 + ran.nextInt(12);
-//                if (temporal > 100) {
-//                    temporal = 99;
-//                }
-//            }
-//            lanzamiento = temporal;
-//
-//            temporal = 0;
-//
-//            while (temporal < 70) {
-//
-//                temporal = 12 * 1 + ran.nextInt(12);
-//                if (temporal > 100) {
-//                    temporal = 99;
-//                }
-//            }
-//
-//            passing = temporal;
-//        }
-//        DefaultComboBoxModel dc
-//                = (DefaultComboBoxModel) Ds_Selecciondeequipos.getModel();
-//
-//        dc.addElement(x);
-//
-//        cb_amigos.setModel(dc);
+            int vision = randof();
+            int regate = randof();
+            int disparo = randof();
+
+            Ds_Vision.setText(Integer.toString(vision));
+            Ds_Regate.setText(Integer.toString(regate));
+            Ds_disparo1.setText(Integer.toString(disparo));
+
+            rating = (disparo + regate + vision + entrada + ritmo + fisico + passingPortero + lanzamientoPortero + agarrePortero) / 9;
+            Ds_rating.setText(Integer.toString(rating));
+
+            Jugador y = new Portero(agarrePortero, lanzamientoPortero, passingPortero, edadPortero, rating, nombre, agarre, lanzamiento, fisico, ritmo, entrada);
+            jugadores.add(y);
+        } else if (Ds_Delantero.isSelected()){
+            
         }
+
+
     }//GEN-LAST:event_Ds_generarActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -1345,4 +1258,37 @@ public class Main extends javax.swing.JFrame {
     ArrayList<Estadios> Estadio = new ArrayList<>();
     ArrayList<Equipo> Equipos = new ArrayList<>();
 
+    public static int rando() {
+
+        int temporal = 0;
+        boolean seguir = true;
+
+        while (seguir) {
+
+            temporal = 12 * (1 + ran.nextInt(12));
+
+            if (temporal >= 70 && temporal < 100) {
+                seguir = false;
+            }
+
+        }
+
+        return temporal;
+
+    }
+
+    public static int randof() {
+        int temporal = 0;
+        boolean seguir = true;
+
+        while (seguir) {
+            temporal = 70 + ran.nextInt(8);
+
+            if (temporal >= 70 && temporal < 100) {
+                seguir = false;
+            }
+        }
+
+        return temporal;
+    }
 }

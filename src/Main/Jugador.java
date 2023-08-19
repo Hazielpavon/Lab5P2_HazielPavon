@@ -2,23 +2,23 @@
 package Main;
 
 
-public class Jugador {
+abstract class Jugador {
     
-    private String nombre; 
+    String nombre; 
     private int edad; 
-    private String nacionalidad; 
-    private String pie; 
+    String nacionalidad; 
+    String pie; 
     private int rating; 
-    private String equipo; 
+    String equipo; 
     private int agarre; 
     private int lanzamiento; 
     private int fisico;
     private int ritmo; 
     private int entrada; 
-    private int vision; 
-    private int passing; 
-    private int regate; 
-    private int disparo; 
+    int vision; 
+    int passing; 
+    int regate; 
+    int disparo; 
 
     public Jugador(String nombre, int edad, String nacionalidad, String pie, int rating, String equipo, int agarre, int lanzamiento, int fisico, int ritmo, int entrada, int vision, int passing, int regate, int disparo) {
         this.nombre = nombre;

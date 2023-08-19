@@ -14,7 +14,7 @@ public class Portero extends Jugador {
     private int lanzamientoesp;
     private int passingesp;
 
-    public Portero(int agarreesp, int lanzamientoesp, int passingesp) {
+    public Portero(int agarreesp, int lanzamientoesp, int passingesp, int edadPortero, int rating, String nombre1, int agarre, int lanzamiento, int fisico, int ritmo, int entrada) {
         this.agarreesp = agarreesp;
         this.lanzamientoesp = lanzamientoesp;
         this.passingesp = passingesp;
@@ -46,7 +46,5 @@ public class Portero extends Jugador {
     public void setPassingesp(int passingesp) {
         this.passingesp = passingesp;
     }
-    
-    
 
 }
