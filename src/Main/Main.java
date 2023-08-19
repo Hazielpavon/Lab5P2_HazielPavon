@@ -55,8 +55,6 @@ public class Main extends javax.swing.JFrame {
         Ds_NombreEstadio = new javax.swing.JTextPane();
         jLabel27 = new javax.swing.JLabel();
         Ds_Capacidad = new javax.swing.JFormattedTextField();
-        Ds_Equipopertenete = new javax.swing.JComboBox<>();
-        jLabel28 = new javax.swing.JLabel();
         Ds_GenerarEstadio = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
         Ds_elegirJugador = new javax.swing.JComboBox<>();
@@ -238,11 +236,6 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        Ds_Equipopertenete.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-
-        jLabel28.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
-        jLabel28.setText("Equipo al que pertenece");
-
         Ds_GenerarEstadio.setText("Generar");
         Ds_GenerarEstadio.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -264,20 +257,13 @@ public class Main extends javax.swing.JFrame {
                         .addGap(22, 22, 22)
                         .addComponent(jLabel25))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addGap(235, 235, 235)
-                                .addComponent(jLabel28)
-                                .addGap(61, 61, 61))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel26)
-                                .addGap(69, 69, 69)))
+                        .addGap(319, 319, 319)
+                        .addComponent(jLabel26)
+                        .addGap(69, 69, 69)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Ds_Capacidad, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Ds_Equipopertenete, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(Ds_Capacidad, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(382, 382, 382)
                         .addComponent(Ds_GenerarEstadio, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -300,11 +286,7 @@ public class Main extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Ds_Capacidad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(49, 49, 49)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Ds_Equipopertenete, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel28, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(46, 46, 46)
+                .addGap(126, 126, 126)
                 .addComponent(Ds_GenerarEstadio, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(49, Short.MAX_VALUE))
         );
@@ -994,7 +976,7 @@ public class Main extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
+                .addComponent(jTabbedPane1)
                 .addContainerGap())
         );
 
@@ -1250,7 +1232,6 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> Ds_EliminarEquipo;
     private javax.swing.JComboBox<String> Ds_EliminarEstadio;
     private javax.swing.JTextField Ds_Entrada;
-    private javax.swing.JComboBox<String> Ds_Equipopertenete;
     private javax.swing.JButton Ds_GenerarEquipo;
     private javax.swing.JButton Ds_GenerarEstadio;
     private javax.swing.JButton Ds_GenerarRating;
@@ -1303,7 +1284,6 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
