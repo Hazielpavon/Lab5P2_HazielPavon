@@ -1174,7 +1174,7 @@ public class Main extends javax.swing.JFrame {
         ciudad = Ds_ciudad.getText();
         capacidad = Integer.parseInt(Ds_Capacidad.getText());
 
-        Estadios x = new Estadios(nombre, ciudad, capacidad, "");
+        Estadios x = new Estadios(nombre, ciudad, capacidad);
 
         Estadio.add(x);
 

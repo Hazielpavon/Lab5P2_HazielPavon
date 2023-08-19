@@ -7,13 +7,11 @@ public class Estadios {
     private String nombre; 
     private String ciudad; 
     private int capacidad; 
-    private String equipo; 
 
-    public Estadios(String nombre, String ciudad, int capacidad, String equipo) {
+    public Estadios(String nombre, String ciudad, int capacidad) {
         this.nombre = nombre;
         this.ciudad = ciudad;
         this.capacidad = capacidad;
-        this.equipo = equipo;
     }
 
     public Estadios() {
@@ -43,17 +41,10 @@ public class Estadios {
         this.capacidad = capacidad;
     }
 
-    public String getEquipo() {
-        return equipo;
-    }
-
-    public void setEquipo(String equipo) {
-        this.equipo = equipo;
-    }
-
+   
     @Override
     public String toString() {
-        return "Estadios: " + " \n Nombre = " + nombre + "\n  Ciudad = " + ciudad + "\n Capacidad = " + capacidad + "\n Equipo = " + equipo;
+        return "Estadios: " + " \n Nombre = " + nombre + "\n  Ciudad = " + ciudad + "\n Capacidad = " + capacidad; 
     }
             
            
